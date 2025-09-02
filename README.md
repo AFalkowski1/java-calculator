@@ -1,13 +1,27 @@
 # Java Calculator
-Ten projekt to implementacja prostego kalkulatora w języku Java, który wykonuje podstawowe operacje arytmetyczne oraz posiada funkcję pamięci. Projekt został stworzony w ramach ćwiczeń i jest przykładem zastosowania testów jednostkowych oraz obsługi wyjątków.
-### Funkcje
-* **Podstawowe operacje**: Kalkulator obsługuje operacje dodawania, odejmowania, mnożenia i dzielenia.
-* **Obsługa błędów**: Funkcja dzielenia zabezpiecza przed dzieleniem przez zero.
-* **Pamięć**: Kalkulator umożliwia przechowywanie wyniku w pamięci i wykorzystywanie go w kolejnych obliczeniach.
-### Testy jednostkowe
-Projekt zawiera kompleksowe testy jednostkowe (JUnit) dla wszystkich zaimplementowanych operacji. Zostały one przygotowane z myślą o testowaniu poprawności działania, w tym przypadków krańcowych, np. dzielenia przez zero.
-### Jak uruchomić?
-1. Upewnij się, że masz zainstalowany **Java Development Kit (JDK) w wersji 11** lub nowszej.
-2. Sklonuj repozytorium na swój komputer.
-3. Użyj narzędzia do zarządzania zależnościami, takiego jak **Maven** lub **Gradle**, aby skompilować i uruchomić projekt. W przypadku Mavena, możesz użyć komendy: mvn test aby uruchomić wszystkie testy jednostkowe.
-*Autor: **A. Falkowski** | Projekt stworzony w ramach ćwiczeń z programowania.*
+
+This project is an implementation of a simple calculator in Java that performs basic arithmetic operations and includes a memory function. The project was created as an academic exercise and serves as an example of using unit tests and exception handling.
+
+---
+
+## Features
+
+* **Basic Operations:** The calculator supports addition, subtraction, multiplication, and division.
+* **Error Handling:** The division function is secured against division by zero.
+* **Memory:** The calculator allows for storing the result in memory and using it in subsequent calculations.
+
+---
+
+## Unit Tests
+
+The project includes comprehensive **JUnit unit tests** for all implemented operations. They were prepared to test for correctness, including edge cases, such as division by zero.
+
+---
+
+## How to run?
+
+1.  Make sure you have the **Java Development Kit (JDK) version 11** or newer installed.
+2.  Clone the repository to your computer.
+3.  Use a dependency management tool like **Maven** or **Gradle** to compile and run the project. For Maven, you can use the command: `mvn test` to run all unit tests.
+
+**Author:** A. Falkowski | Project created as a programming exercise.
