@@ -1,4 +1,4 @@
-Java Calculator
+[Java Calculator
 Ten projekt to implementacja prostego kalkulatora w języku Java, który wykonuje podstawowe operacje arytmetyczne oraz posiada funkcję pamięci. Projekt został stworzony w ramach ćwiczeń i jest przykładem zastosowania testów jednostkowych oraz obsługi wyjątków.
 Funkcje
 Podstawowe operacje: Kalkulator obsługuje operacje dodawania, odejmowania, mnożenia i dzielenia.
@@ -11,3 +11,4 @@ Upewnij się, że masz zainstalowany Java Development Kit (JDK) w wersji 11 lub 
 Sklonuj repozytorium na swój komputer.
 Użyj narzędzia do zarządzania zależnościami, takiego jak Maven lub Gradle, aby skompilować i uruchomić projekt. W przypadku Mavena, możesz użyć komendy: mvn test aby uruchomić wszystkie testy jednostkowe.
 Autor: A. Falkowski | Projekt stworzony w ramach ćwiczeń z programowania.
+](https://g.co/gemini/share/4ac1b4669272)
