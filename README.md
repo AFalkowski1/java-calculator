@@ -1,20 +1,21 @@
-# Zadanie Kalkulator
+Java Calculator
+Ten projekt to implementacja prostego kalkulatora w języku Java, który wykonuje podstawowe operacje arytmetyczne oraz posiada funkcję pamięci. Projekt został stworzony w ramach ćwiczeń i jest przykładem zastosowania testów jednostkowych oraz obsługi wyjątków.
 
---- 
-W katalogu `src` znajduje się wstępna implementacja klasy kalkulator wraz z przykładowymi testami jednostkowymi.
+Funkcje
+Podstawowe operacje: Kalkulator obsługuje operacje dodawania, odejmowania, mnożenia i dzielenia.
 
-## Zadanie 1
+Obsługa błędów: Funkcja dzielenia zabezpiecza przed dzieleniem przez zero.
 
-Dodaj brakujące testy dla operacji dodawania i mnożenia.
-Pomyśl o testach na krańcach dziedziny. 
+Pamięć: Kalkulator umożliwia przechowywanie wyniku w pamięci i wykorzystywanie go w kolejnych obliczeniach.
 
-## Zadanie 2
+Testy jednostkowe
+Projekt zawiera kompleksowe testy jednostkowe (JUnit) dla wszystkich zaimplementowanych operacji. Zostały one przygotowane z myślą o testowaniu poprawności działania, w tym przypadków krańcowych, np. dzielenia przez zero.
 
-Dodaj do kalkulatora dwie nowe operacje wraz z testami. 
-Najmniej jedna z operacji powinna posiadać jakieś wykluczenia z dziedziny,
-np. opracja dzielenia i dzielenie przez 0. 
+Jak uruchomić?
+Upewnij się, że masz zainstalowany Java Development Kit (JDK) w wersji 11 lub nowszej.
 
-## Zadanie 3
+Sklonuj repozytorium na swój komputer.
 
-Dodaj do kalkulatora możliwość przechowywania wyniku w pamięci oraz wykonywania operacji 
-z wykorzystaniem danych przechowywanych w pamięci.
+Użyj narzędzia do zarządzania zależnościami, takiego jak Maven lub Gradle, aby skompilować i uruchomić projekt. W przypadku Mavena, możesz użyć komendy: mvn test aby uruchomić wszystkie testy jednostkowe.
+
+Autor: A. Falkowski | Projekt stworzony w ramach ćwiczeń z programowania.
